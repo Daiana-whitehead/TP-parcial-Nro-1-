@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+* {
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    background-color: #222222;
+    width: 100%;
+}
+
+nav ul {
+    margin: revert;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+nav ul li :hover {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 25%;
+    color: white;
+    background-color: rgba(213, 151, 65, 0.3);
+}
+
+nav ul li a {
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100%;
+    display: inline-flex;
+    margin-right: 200px;
+}
+
+#section-main-image {
+    background-color: #222222;
+    margin: 0;
+    width: 100%;
+    height: 1350px;
+}
+
+#section-main-image h1 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 100px;
+    padding: 20px;
+    font-size: 95px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 190px;
+    transform: none;
+    text-shadow: initial;
+}
+
+#section-main-image h2 {
+    color: white;
+    margin: 100px;
+    padding: 200px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 209px;
+    font-family: cursive;
+    text-shadow: 2px 2px #000;
+}
+
+
+/* SECTION COFFEE */
+
+#section-coffee {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 0%;
+}
+
+#article-section-coffee h2 {
+    justify-content: center;
+    margin: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+#article-section-coffee p {
+    justify-content: center;
+    margin: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.product {
+    padding: 0 15px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+    background-color: #58462c;
+    color: #fff;
+    display: flex;
+    width: 2070px;
+}
+
+#footer-contact .container h2 {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+#footer-contact .contact-data {
+    display: inline-grid;
+    justify-content: center;
+    margin-left: 500px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: 400px;
+}
+
+#footer-contact .contact-info {
+    margin-right: auto;
+    margin-inline: -100px;
+    padding-top: 15px;
+}
+
+.contact-form form {
+    margin-left: 0px;
+    text-align: right;
+}
+
+.contact-form form .form-control {
+    padding: 10px 0;
+    margin-inline: 500px;
+}
+
+.contact-form form .form-control label {
+    margin-right: 15px;
+}
+
+.contact-form form button {
+    margin-top: 10px 0;
+    color: #58462c;
+    padding: 2px 30px;
+}
