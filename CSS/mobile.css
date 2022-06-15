@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+nav {
+    flex-direction: column;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex-direction: column;
+    display: flex;
+    font-size: small;
+}
+
+#section-main-image {
+    display: flex;
+}
+
+#section-main-image h1 {
+    font-size: 35px;
+    text-align: center;
+    display: inline-flex;
+}
+
+#section-main-image h2 {
+    display: grid;
+}
+
+
+/* SECTION COFFEE */
+
+#section-coffee {
+    display: inline-flex;
+}
+
+#section-coffe .container {
+    display: flex;
+}
+
+#article-section-coffee h2 {
+    font-size: small;
+    display: inline-flex;
+}
+
+#article-section-coffee p {
+    font-size: small;
+    display: inline-flex;
+}
+
+.product-grid {
+    display: inline-flex;
+}
+
+.product {
+    display: flex;
+}
+
+.product img {
+    width: 150px;
+    height: 100px;
+}
+
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+    display: flex;
+    width: 2040px;
+}
+
+#footer-contact .container h2 {
+    font-size: small;
+}
+
+#footer-contact .contact-data {
+    display: inline-flex;
+}
+
+#footer-contact .contact-info {
+    display: inline-flex;
+}
+
+.contact-form form {
+    display: inline-flex;
+}
+
+.contact-form form .form-control {
+    display: inline-flex;
+}
+
+.contact-form form .form-control label {
+    display: inline-flex;
+}
+
+.contact-form form button {
+    display: inline-flex;
+}
